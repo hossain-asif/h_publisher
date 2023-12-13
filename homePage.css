@@ -11,7 +11,7 @@ nav{
     align-items: center;
     padding: 30px 20px;
     background-color: rgb(255, 235, 204);
-    box-shadow: 10px 10px 10px 10px rgb(130, 125, 116);
+    box-shadow: 5px 5px 5px 5px rgb(212, 210, 207);
 }
 
 .nav-links ul{
@@ -32,6 +32,35 @@ a{
 /* nav end */
 
 .first_page{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
     background-image:url(images/bg.png);
+    /* background-repeat: no-repeat; */
+    align-items: center;
+    width: 90%;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding:10px;
 }
-
+.book{
+    margin-top:110px;
+    margin-right:200px;
+    box-shadow: 5px 5px 5px 5px rgb(212, 210, 207);
+}
+.bangladesh{
+    margin-left: 80px;
+}
+.bangladesh h1{
+    font-size: 50px;
+}
+.bangladesh h6{
+    color:rgb(71, 70, 70);
+    font-size: 17px;
+}
+.first_page_button{
+    width: 130px;
+    height: 35px;
+    border-radius: 3px;
+    background-color:rgb(96, 96, 200);
+    margin-left: 50px;
+}
